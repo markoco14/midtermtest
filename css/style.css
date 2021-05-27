@@ -1,0 +1,40 @@
+*, *::before, *::after {
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.score {
+	font-size:3rem;
+	position: absolute;
+	top:25px;
+	right:35px;
+}
+
+.question-section {
+	font-size:2rem;
+	padding:50px;
+	text-align:center;
+}
+.body-section {
+	padding:15px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
+.days-of-week {
+	/*style the font*/
+	color:white;
+	font-size:2rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/*style the boxes*/
+	margin:10px;
+	width: 200px;
+	height: 200px;
+	background-color:blue;
+	border-radius:5%;
+}
